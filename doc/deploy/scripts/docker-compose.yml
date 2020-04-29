@@ -1,0 +1,11 @@
+version: '3'
+services:
+  backend:
+    container_name: "ecommerce-backend"
+    build: ./sources/backend/
+    image: ecommerce-backend:master
+    ports:
+      - 10000:9999
+    environment:
+      SERVER_PORT: 9999
+      PORTAL-PRESTAMOS_RECURSO_ONFLOW-JS_URL: http://saenz.dev.somospnt.com:9010/dist/onflow.js
