@@ -15,7 +15,7 @@
 	<description> in the kingdom of the blind the one-eyed man is king</description>
 
 	<properties>
-		<java.version>14</java.version>
+		<java.version>11</java.version>
 	</properties>
 
 	<dependencies>

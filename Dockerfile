@@ -10,7 +10,7 @@ RUN mkdir -p /app/config; \
 	rm -rf /tmp/source; \
 	mkdir /logs;
 #==============================================================
-FROM adoptopenjdk/adoptopenjdk:14-jdk-openj9
+FROM adoptopenjdk/openjdk11-openj9:x86_64-alpine-jre-11.0.3_7_openj9-0.14.3
 LABEL maintainer me@juanmamorello.tech
 ARG APLICATIVO
 ENV APLICATIVO=${APLICATIVO}

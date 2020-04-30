@@ -2,7 +2,7 @@ version: '3'
 services:
   backend:
     container_name: "ecommerce-backend"
-    build: ./sources/backend/
+    build: ./sources/backend-operations
     image: ecommerce-backend:master
     ports:
       - 10000:9999
